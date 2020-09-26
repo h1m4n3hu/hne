@@ -1,0 +1,408 @@
+<html>
+<head>
+<title>hne</title>
+<link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+</head>
+<body style="font-family: 'Quicksand', sans-serif;">
+
+<div class="relative bg-white overflow-hidden">
+  <div class="max-w-screen-xl mx-auto">
+    <div class="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
+      <svg class="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2" fill="orange" viewBox="0 0 100 100" preserveAspectRatio="none">
+        <polygon points="50,0 100,0 50,100 0,100" />
+      </svg>
+
+      <div class="relative pt-6 px-4 sm:px-6 lg:px-8">
+        <nav class="relative flex items-center justify-between sm:h-10 lg:justify-start">
+          <div class="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
+            <div class="flex items-center justify-between w-full md:w-auto">
+              <a aria-label="Home">
+                <img class="h-8 w-auto sm:h-10" src="https://i.ibb.co/vXTzcnv/Whats-App-Image-2020-09-23-at-8-13-00-AM.jpg" alt="Logo">
+              </a>
+              <div class="-mr-2 flex items-center md:hidden">
+                <button type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out" id="main-menu" aria-label="Main menu" aria-haspopup="true">
+                  <svg class="h-6 w-6" stroke="orange" fill="none" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="hidden md:block md:ml-10 md:pr-4">
+            <a href="#about" class="ml-8 font-medium text-gray-500 hover:text-orange-600 transition duration-150 ease-in-out">About Me</a>
+            <a href="#project" class="ml-8 font-medium text-gray-500 hover:text-orange-600 transition duration-150 ease-in-out">Projects</a>
+            <a href="#skills" class="ml-8 font-medium text-gray-500 hover:text-orange-600 transition duration-150 ease-in-out">Skills</a>
+            <a href="#references" class="ml-8 font-medium text-gray-500 hover:text-orange-600 transition duration-150 ease-in-out">References</a>
+            <a href="#contact" class="ml-8 font-medium text-gray-500 hover:text-orange-600 transition duration-150 ease-in-out">Contact</a>
+          </div>
+        </nav>
+      </div>
+
+      <!--
+        Mobile menu, show/hide based on menu open state.
+
+        Entering: "duration-150 ease-out"
+          From: "opacity-0 scale-95"
+          To: "opacity-100 scale-100"
+        Leaving: "duration-100 ease-in"
+          From: "opacity-100 scale-100"
+          To: "opacity-0 scale-95"
+      -->
+      <div class="absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden">
+        <div class="rounded-lg shadow-md">
+          <div class="rounded-lg bg-white shadow-xs overflow-hidden" role="menu" aria-orientation="vertical" aria-labelledby="main-menu">
+            <div class="px-5 pt-4 flex items-center justify-between">
+              <div>
+                <img class="h-8 w-auto" src="https://i.ibb.co/vXTzcnv/Whats-App-Image-2020-09-23-at-8-13-00-AM.jpg" alt="">
+              </div>
+            </div>
+            <div class="px-2 pt-2 pb-3">
+            </div>
+            <div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <main class="mt-10 mx-auto max-w-screen-xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
+        <div class="sm:text-center lg:text-left">
+          <h2 class="text-4xl tracking-tight leading-10 font-extrabold text-gray-900 sm:text-5xl sm:leading-none md:text-6xl">I've been a honey
+            <br>
+            <span class="text-orange-600">all my life. XD</span>
+          </h2>
+          <p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+            I go to sleep with an IMDB of my day of more than 9 even if I have been programming all day. I don't even need a cup of coffee!
+          </p>
+          <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
+            <div class="rounded-md shadow">
+              <a href="#about" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-orange-600 hover:bg-orange-500 focus:outline-none focus:border-orange-700 focus:shadow-outline-orange transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">
+                KNOW MORE
+              </a>
+            </div>
+            <div class="mt-3 sm:mt-0 sm:ml-3">
+              <a href="#contact" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-orange-700 bg-gray-300 hover:text-orange-600 hover:bg-grar-50 focus:outline-none focus:shadow-outline-orange focus:border-orange-300 transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">
+                CONTACT
+              </a>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+  <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
+    <img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="https://i.ibb.co/sqpzrPf/croppedhjn.jpg" alt="">
+  </div>
+</div>
+
+<section class="text-gray-700 body-font">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="inline-block w-8 h-8 text-gray-400 mb-8" viewBox="0 0 975.036 975.036">
+          <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
+        </svg>
+        <p class="leading-relaxed text-lg">मच्छर ने आपको काटा ये उसका जुनून था,मच्छर ने आपको काटा ये उसका जुनून था,फिर आपने वहाँ खुजाया ये आपका सुकून था,चाह कर भी आप उसे मार नहीं पाये,ग़ौर फ़रमाइये हुज़ूर चाह कर भी आप उसे मार नहीं पाये,क्योंकि उसकी रगों में आप ही का ख़ून था।</p>
+        <span class="inline-block h-1 w-10 rounded bg-orange-600 mt-8 mb-6"></span>
+        <h2 class="text-gray-900 font-medium title-font tracking-wider text-lg">SOMEONE</h2>
+        <p class="text-orange-500">THEIR THING</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="text-gray-700 body-font" id="about">
+    <div class="container mx-auto">
+      <div class="flex flex-wrap w-full">
+        <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
+          <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">ABOUT ME</h1>
+          <div class="h-1 w-20 bg-orange-500 rounded"></div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="text-gray-700 body-font">
+	<div class="container mx-auto flex px-5 py-10 md:flex-row flex-col items-center">
+	  <div class="lg:max-w-lg lg:w-full flex flex-col md:items-end md:text-right mb-16 md:mb-0 items-center text-center">
+      <iframe width="336" height="189" src="https://www.youtube.com/embed/f8FYBs4jnoI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>	  </div>
+	  <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+		<h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-orange-600">...and so did my love
+		  <br class="hidden lg:inline-block">for programming.
+		</h1>
+		<p class="mb-8 leading-relaxed">It all started with Super Mario. Unlike some out there I tried creating one. The day was super cool and somehow I was working eith so called Object Oriented Stuff in python. To be honest, I actually didn't even know the use of 'self' keyword but I was using it. That calls for-My journey started with revealing out what this 'self' thing was and so did my love for programming.</p>
+		<div class="flex justify-center">
+		  <a href="https://www.youtube.com/c/h1m4n3hu" class="inline-flex text-white bg-orange-500 border-0 py-2 px-6 focus:outline-none hover:bg-orange-600 rounded text-lg">VISIT MY YOUTUBE CHANNEL</a>
+		</div>
+	  </div>
+	</div>
+  </section>
+
+  <section class="text-gray-700 body-font">
+    <div class="container mx-auto flex px-5 py-10 md:flex-row flex-col items-center">
+      <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-end md:text-right mb-16 md:mb-0 items-center text-center">
+        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-orange-600">...and when I connected
+          <br class="hidden lg:inline-block">to the real world.
+            </h1>
+        <p class="mb-8 leading-relaxed">I found LinkedIn to be more informative than any other networking places because I realized that again your future is decided by some pieces of paper. That too are stored electronically these days. And I found some people who are working too hard but not in silence-I mean the crowd virtually- started me getting to know more people just like when I first connected to the real world.</p>
+        <div class="flex justify-center">
+          <a href="https://in.linkedin.com/in/h1m4n3hu" class="inline-flex text-white bg-orange-500 border-0 py-2 px-6 focus:outline-none hover:bg-orange-600 rounded text-lg">CONNECT ON LINKEDIN</a>
+        </div>
+      </div>
+      <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+        <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="light" data-vanity="h1m4n3hu"><a class="LI-simple-link" href='https://in.linkedin.com/in/h1m4n3hu?trk=profile-badge'>h1m4n3hu</a></div>
+        <!--img class="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600"-->
+      </div>
+    </div>
+  </section>
+
+  <section class="text-gray-700 body-font">
+    <div class="container mx-auto flex px-5 py-10 md:flex-row flex-col items-center">
+      <div class="lg:max-w-lg lg:w-full flex flex-col md:items-end md:text-right mb-16 md:mb-0 items-center text-center">
+        <a data-pin-do="embedUser" data-pin-board-width="336" data-pin-scale-height="189" data-pin-scale-width="80" href="https://www.pinterest.com/h1m4n3hu5on1/"></a>
+  	  </div>
+      <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-orange-600">...and its good being a
+        <br class="hidden lg:inline-block">Pinterest person.
+      </h1>
+      <p class="mb-8 leading-relaxed">So Pinterest is The only Social Media which is not so social. So I am more than Facebook over here. Its relaxing. It makes me creative. It helps me speaking the creative thing right on time(see my boards and you'll know). It has almost every of your feeling under the quotes section and I am a happy person so it boosts my mood too. It's more like a  Monica thing and its good being a Pinterest Person</p>
+      <div class="flex justify-center">
+        <button class="inline-flex text-white bg-orange-500 border-0 py-2 px-6 focus:outline-none hover:bg-orange-600 rounded text-lg">FOLLOW ME ON PINTEREST</button>
+      </div>
+      </div>
+    </div>
+    </section>
+  
+  <section class="text-gray-700 body-font" id="project">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-wrap w-full mb-20">
+        <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
+          <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">PROJECTS</h1>
+          <div class="h-1 w-20 bg-orange-500 rounded"></div>
+        </div>
+      </div>
+      <div class="flex flex-wrap -m-4">
+        <div class="xl:w-1/4 md:w-1/2 p-4">
+          <div class="bg-gray-100 p-6 rounded-lg">
+            <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/720x400" alt="content">
+            <h3 class="tracking-widest text-orange-500 text-xs font-medium title-font">SUBTITLE</h3>
+            <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Chichen Itza</h2>
+            <p class="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
+          </div>
+        </div>
+        <div class="xl:w-1/4 md:w-1/2 p-4">
+          <div class="bg-gray-100 p-6 rounded-lg">
+            <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/721x401" alt="content">
+            <h3 class="tracking-widest text-orange-500 text-xs font-medium title-font">SUBTITLE</h3>
+            <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Colosseum Roma</h2>
+            <p class="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
+          </div>
+        </div>
+        <div class="xl:w-1/4 md:w-1/2 p-4">
+          <div class="bg-gray-100 p-6 rounded-lg">
+            <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/722x402" alt="content">
+            <h3 class="tracking-widest text-orange-500 text-xs font-medium title-font">SUBTITLE</h3>
+            <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Great Pyramid of Giza</h2>
+            <p class="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
+          </div>
+        </div>
+        <div class="xl:w-1/4 md:w-1/2 p-4">
+          <div class="bg-gray-100 p-6 rounded-lg">
+            <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/723x403" alt="content">
+            <h3 class="tracking-widest text-orange-500 text-xs font-medium title-font">SUBTITLE</h3>
+            <h2 class="text-lg text-gray-900 font-medium title-font mb-4">San Francisco</h2>
+            <p class="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="flex flex-col text-center w-full mb-20">
+      <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Along with Ideas like these, many more made me enhance my skills in Python like Machine Learning with Scikit Learn, Web Development with Django, Game Development with Pygame and many more. I believe that when life never stops teaching why should we stop learning?</p>
+    </div>
+  </section>
+
+  <section class="text-gray-700 body-font" id="skills">
+    <div class="container mx-auto">
+      <div class="flex flex-wrap w-full">
+        <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
+          <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">SKILLS</h1>
+          <div class="h-1 w-20 bg-orange-500 rounded"></div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="text-gray-700 body-font">
+    <div class="container px-5 py-24 mx-auto flex flex-wrap">
+      <div class="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto">
+        <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+          <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+        </div>
+        <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-orange-500 text-white relative z-10 title-font font-medium text-sm"></div>
+        <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+          <div class="flex-shrink-0 w-24 h-24 bg-orange-0 text-orange-500 rounded-full inline-flex items-center justify-center">
+            <img alt="testimonial" class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="https://e7.pngegg.com/pngimages/761/45/png-clipart-professional-python-programmer-computer-programming-android-android-blue-logo.png">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+            </svg>
+          </div>
+          <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+            <h2 class="font-medium title-font text-orange-500 mb-1 text-xl">Python Programming</h2>
+            <p class="leading-relaxed">Python used in creating GUI Applications with Tkinter, automating web with Selenium, scraping web content with Scrapy, computer vision with OpenCV and much more.</p>
+          </div>
+        </div>
+      </div>
+      <div class="flex relative pb-20 sm:items-center md:w-2/3 mx-auto">
+        <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+          <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+        </div>
+        <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-orange-500 text-white relative z-10 title-font font-medium text-sm"></div>
+        <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+          <div class="flex-shrink-0 w-24 h-24 bg-orange-0 text-orange-500 rounded-full inline-flex items-center justify-center">
+            <img alt="testimonial" class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="https://icon-library.com/images/website-design-icon-png/website-design-icon-png-4.jpg">
+              <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+            </svg>
+          </div>
+          <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+            <h2 class="font-medium title-font text-orange-500 mb-1 text-xl">Dynamic Web Application Development</h2>
+            <p class="leading-relaxed">Python used as per the framework Django which is considered one of the most powerful structures for dynamic websites and </p>
+          </div>
+        </div>
+      </div>
+      <div class="flex relative pb-20 sm:items-center md:w-2/3 mx-auto">
+        <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+          <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+        </div>
+        <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-orange-500 text-white relative z-10 title-font font-medium text-sm"></div>
+        <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+          <div class="flex-shrink-0 w-24 h-24 bg-orange-0 text-orange-500 rounded-full inline-flex items-center justify-center">
+            <img alt="testimonial" class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="https://st2.depositphotos.com/5266509/8920/v/450/depositphotos_89205632-stock-illustration-network-block-diagram-black-outline.jpg">
+              <circle cx="12" cy="5" r="3"></circle>
+              <path d="M12 22V8M5 12H2a10 10 0 0020 0h-3"></path>
+            </svg>
+          </div>
+          <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+            <h2 class="font-medium title-font text-orange-500 mb-1 text-xl">The 400 Blows</h2>
+            <p class="leading-relaxed">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p>
+          </div>
+        </div>
+      </div>
+      <div class="flex relative pb-10 sm:items-center md:w-2/3 mx-auto">
+        <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+          <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+        </div>
+        <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-orange-500 text-white relative z-10 title-font font-medium text-sm"></div>
+        <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+          <div class="flex-shrink-0 w-24 h-24 bg-orange-0 text-orange-500 rounded-full inline-flex items-center justify-center">
+            <img alt="testimonial" class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="https://p1.hiclipart.com/preview/724/587/750/browser-icon-code-icon-coding-icon-html-icon-programming-icon-web-icon-text-line-logo-sign-png-clipart.jpg">
+              <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+              <circle cx="12" cy="7" r="4"></circle>
+            </svg>
+          </div>
+          <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+            <h2 class="font-medium title-font text-orange-500 mb-1 text-xl">Neptune</h2>
+            <p class="leading-relaxed">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="flex flex-col text-center w-full mb-20">
+      <p class="lg:w-2/3 mx-auto leading-relaxed text-base">"Practice makes a man perfect" is an old idea now. I believe that everything-I mean everything in this world can be performed in one go. If not so, there might be just one more step to do it. Just one more step and it is done. This belief-system-fuel thing keeps me running throughout the day and here I am competing myself.</p>
+    </div>
+  </section>
+
+  <section class="text-gray-700 body-font" id="references">
+    <div class="container mx-auto">
+      <div class="flex flex-wrap w-full">
+        <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
+          <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">REFERENCES</h1>
+          <div class="h-1 w-20 bg-orange-500 rounded"></div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="text-gray-700 body-font">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-wrap -m-4">
+        <div class="lg:w-1/3 lg:mb-0 mb-6 p-4">
+          <div class="h-full text-center">
+            <img alt="testimonial" class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="https://dummyimage.com/302x302">
+            <p class="leading-relaxed">Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki taxidermy 90's cronut +1 kinfolk. Single-origin coffee ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
+            <span class="inline-block h-1 w-10 rounded bg-orange-500 mt-6 mb-4"></span>
+            <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">HOLDEN CAULFIELD</h2>
+            <p class="text-orange-500">Senior Product Designer</p>
+          </div>
+        </div>
+        <div class="lg:w-1/3 lg:mb-0 mb-6 p-4">
+          <div class="h-full text-center">
+            <img alt="testimonial" class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="https://dummyimage.com/300x300">
+            <p class="leading-relaxed">Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki taxidermy 90's cronut +1 kinfolk. Single-origin coffee ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
+            <span class="inline-block h-1 w-10 rounded bg-orange-500 mt-6 mb-4"></span>
+            <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">ALPER KAMU</h2>
+            <p class="text-orange-500">UI Develeoper</p>
+          </div>
+        </div>
+        <div class="lg:w-1/3 lg:mb-0 p-4">
+          <div class="h-full text-center">
+            <img alt="testimonial" class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="https://dummyimage.com/305x305">
+            <p class="leading-relaxed">Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki taxidermy 90's cronut +1 kinfolk. Single-origin coffee ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
+            <span class="inline-block h-1 w-10 rounded bg-orange-500 mt-6 mb-4"></span>
+            <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">HENRY LETHAM</h2>
+            <p class="text-orange-500">CTO</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="flex flex-col text-center w-full mb-20">
+      <p class="lg:w-2/3 mx-auto leading-relaxed text-base">According to this World's uppermost layer, which covers the truth beneath, the layer suggests that only shit that matters is the extent of your life that is shown off. True connections know your roots, and make you smile accordingly. It is not the people you collect for your funeral day but the journey to that day.</p>
+    </div>
+  </section>
+
+  <section class="text-gray-700 body-font" id="contact">
+    <div class="container mx-auto">
+      <div class="flex flex-wrap w-full">
+        <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
+          <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">CONTACT</h1>
+          <div class="h-1 w-20 bg-orange-500 rounded"></div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="text-gray-700 body-font relative">
+    <div class="container px-5 py-24 mx-auto flex sm:flex-no-wrap flex-wrap">
+      <div class="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+        <iframe width="100%" height="100%" class="absolute inset-0" frameborder="0" title="map" marginheight="0" marginwidth="0" scrolling="no" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3665.4310901747613!2d77.37506901428718!3d23.263780713109263!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c67e295f876b5%3A0xef49314d651a1c07!2sThadaram%20Apartments%2C%20Kohefiza%2C%20Bhopal%2C%20Madhya%20Pradesh%20462030!5e0!3m2!1sen!2sin!4v1601021444371!5m2!1sen!2sin"></iframe>
+        <div class="bg-white relative flex flex-wrap py-6">
+          <div class="lg:w-1/2 px-6">
+            <h2 class="title-font font-medium text-orange-600 tracking-widest text-sm">ADDRESS</h2>
+            <p class="text-gray-650 leading-relaxed">D-22 / 102 Koh-e-fiza Bhopal, Madhya Pradesh, India</p>
+          </div>
+          <div class="lg:w-1/2 px-6 mt-4 lg:mt-0">
+            <h2 class="title-font font-medium text-orange-600 tracking-widest text-sm">EMAIL</h2>
+            <a class="text-gray-650 leading-relaxed">himanshusoni2708@gmail.com</a>
+            <h2 class="title-font font-medium text-orange-600 tracking-widest text-sm mt-4">PHONE</h2>
+            <p class="text-gray-650 leading-relaxed">+91-81206-92292</p>
+          </div>
+        </div>
+      </div>
+      <div class="lg:w-1/3 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0 text-center">
+        <h2 class="text-gray-900 text-lg mb-1 font-medium title-font">Connect</h2>
+        <p class="leading-relaxed mb-5 text-gray-600">"Connections are what keep people tied to the world."</p>
+        <form action="mailto:himanshusoni2708@gmail.com" method="post" enctype="text/plain">
+        <input class="bg-white rounded border border-gray-400 focus:outline-none focus:border-orange-500 text-base px-4 py-2 mb-4" placeholder="Name" name="name" type="text">
+        <input class="bg-white rounded border border-gray-400 focus:outline-none focus:border-orange-500 text-base px-4 py-2 mb-4" placeholder="Email" name="email" type="email">
+        <textarea class="bg-white rounded border border-gray-400 focus:outline-none h-32 focus:border-orange-500 text-base px-4 py-2 mb-4 resize-none" name="message" placeholder="Message"></textarea><br>
+        <button class="text-white bg-orange-500 border-0 py-2 px-6 focus:outline-none hover:bg-orange-600 rounded text-lg">Button</button>
+        <p class="text-xs text-gray-500 mt-3">-please leave a message before the beep.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+<script async defer src="//assets.pinterest.com/js/pinit.js"></script>
+</body>
+</html>
